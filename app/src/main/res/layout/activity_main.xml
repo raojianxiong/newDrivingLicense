@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.raojianxiong.project_0801_driving_licences_improve_001.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar_start_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="驾考助手"
+                android:layout_gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/title_size"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/margin_start_top"
+        android:layout_marginBottom="@dimen/margin_start_top"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_start_car"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="145dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/qi"
+            />
+
+        <ImageView
+            android:id="@+id/img_start_k1"
+            android:layout_margin="@dimen/start_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/k11"
+            />
+        <ImageView
+            android:id="@+id/img_start_k4"
+            android:layout_margin="@dimen/start_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img_start_k1"
+            android:src="@mipmap/k41"
+            />
+        <ImageView
+            android:id="@+id/img_start_k2"
+            android:layout_margin="@dimen/start_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_start_k1"
+            android:src="@mipmap/k21"
+            />
+
+        <ImageView
+            android:id="@+id/img_start_k3"
+            android:layout_margin="@dimen/start_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_start_k4"
+            android:layout_toRightOf="@id/img_start_k2"
+            android:src="@mipmap/k31"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_start_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/register1"
+        />
+    <ImageView
+        android:id="@+id/img_start_law"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/raws1"
+        />
+    <ImageView
+        android:id="@+id/img_start_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/more1"
+        />
+
+</LinearLayout>

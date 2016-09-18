@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/load_bg"
+    android:id="@+id/back_ground"
+    tools:context="com.raojianxiong.project_0801_driving_licences_improve_001.StartLaunchActivity">
+
+</RelativeLayout>

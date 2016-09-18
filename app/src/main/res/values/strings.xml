@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">驾考</string>
+    <string name="last">上一题</string>
+    <string name="collection">收藏</string>
+    <string name="next">下一题</string>
+    <string name="answer">查看答案</string>
+    <string name="my_folder">我的收藏夹</string>
+</resources>

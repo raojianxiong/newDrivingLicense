@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raojianxiong.project_0801_driving_licences_improve_001.MisQuestionTestActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar_chapter_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_title_chapter_test"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_size"
+                android:textColor="@color/colorWhite"
+                android:text="章节练习"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_test_bottom"
+        android:weightSum="4"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@mipmap/belowtitle"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_text_last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:button="@null"
+            android:drawableTop="@mipmap/shang"
+            android:text="@string/last"
+            />
+        <RadioButton
+            android:id="@+id/rb_test_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:button="@null"
+            android:drawableTop="@mipmap/daan"
+            android:text="@string/answer"
+            />
+        <RadioButton
+            android:id="@+id/rb_test_collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:button="@null"
+            android:drawableTop="@mipmap/myshoucang"
+            android:text="@string/collection"
+            />
+        <RadioButton
+            android:id="@+id/rb_test_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:button="@null"
+            android:drawableTop="@mipmap/xia"
+            android:text="@string/next"
+            />
+    </RadioGroup>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_test"
+        android:layout_width="match_parent"
+        android:layout_above="@id/rg_test_bottom"
+        android:weightSum="2"
+
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/colorShrink"
+            android:text="回答正确：0题"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/colorRed"
+            android:text="回答错误：0题"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_below="@id/app_bar_layout_test"
+        android:layout_above="@id/linear_layout_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</RelativeLayout>

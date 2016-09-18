@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.raojianxiong.project_0801_driving_licences_improve_001">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.MainActivity">
+
+        </activity>
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.TabChoiceActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.ChapterListActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.QuestionTestActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.ImproveOuterActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.SubjectChapterActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.WebShowActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.MisQuestionTestActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.CollectionActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.CollectionAndMisListActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.SearchMainActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.SearchContentActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.TestStartActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.TestContentActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.TestResultActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.TestNoteActivity" />
+        <activity android:name="com.raojianxiong.project_0801_driving_licences_improve_001.StartLaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

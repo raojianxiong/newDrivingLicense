@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_test_mis_question"
+        android:layout_below="@id/app_bar_layout_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/test_content_size"
+        android:text="2/365：拉上看到就看过拉丝的空间拉速度开飞机离开as打了款发了看的"/>
+
+    <View
+        android:id="@+id/view_mis_line"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/view_top_margin"
+        android:layout_marginBottom="@dimen/view_bottom_margin"
+        android:layout_height="2dp"
+        android:background="#00f"
+        />
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/img_test_mis_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>
+
+    <CheckBox
+        android:id="@+id/cb_A"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/cb_B"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/cb_C"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/cb_D"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_test_mis_myexplain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tv_test_mis_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btn_mis_sure"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认选择"
+        android:background="@mipmap/narmal"/>
+
+</LinearLayout>
